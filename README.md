@@ -1,1 +1,1 @@
-# SchoolProject-CleanArchitecture-
+# SchoolProject-CleanArchitecture
