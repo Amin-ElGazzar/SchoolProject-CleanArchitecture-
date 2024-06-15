@@ -16,6 +16,9 @@ namespace School.Presistence.Configrations
             builder.HasOne<Subject>(ss => ss.Subject)
                    .WithMany(s => s.StudentsSubjects)
                    .HasForeignKey(ss => ss.SubjectId);
+
+            builder.Property(x => x.Grade)
+                   .HasColumnType("decimal(18, 2)");
         }
     }
 }

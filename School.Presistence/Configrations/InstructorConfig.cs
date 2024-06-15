@@ -12,6 +12,8 @@ namespace School.Presistence.Configrations
                    .WithMany(s => s.Instructors)
                    .HasForeignKey(s => s.SupervisorId)
                    .OnDelete(DeleteBehavior.Restrict);
+            builder.Property(x => x.Salary)
+                   .HasColumnType("decimal(18, 2)");
         }
     }
 }
