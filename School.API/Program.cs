@@ -1,10 +1,8 @@
 using Microsoft.AspNetCore.Localization;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using School.Application;
 using School.Application.Middleware;
 using School.Presistence;
-using School.Presistence.Data;
 using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,11 +15,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Connection  to sql server
-builder.Services.AddDbContext<ApplicationDbContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("Database")));
+//builder.Services.AddDbContext<ApplicationDbContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("Database")));
 
 #region Dependencies
 builder.Services.AddApplicationDependancies()
-                .AddPresistenceDependencies();
+                .AddPresistenceDependencies()
+                .AddRegistrationModuleDependencies(builder.Configuration); ;
 #endregion
 
 #region Localization

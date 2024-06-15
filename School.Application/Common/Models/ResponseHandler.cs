@@ -56,23 +56,15 @@ namespace School.Application.Common.Models
             };
         }
 
-               //public Response<T> Deleted<T>()
-        //{
-        //    return new Response<T>
-        //    {
-        //        Succeeded = true,
-        //        Message = "Deleted",
-        //        StatusCode = System.Net.HttpStatusCode.OK,
-        //    };
-        //}
-        //public Response<T> Deleted<T>()
-        //{
-        //    return new Response<T>
-        //    {
-        //        Succeeded = true,
-        //        Message = "Deleted",
-        //        StatusCode = System.Net.HttpStatusCode.OK,
-        //    };
-        //}
+        public Response<T> Deleted<T>()
+        {
+            return new Response<T>
+            {
+                Succeeded = true,
+                Message = "Deleted",
+                StatusCode = System.Net.HttpStatusCode.OK,
+            };
+        }
+
     }
 }
