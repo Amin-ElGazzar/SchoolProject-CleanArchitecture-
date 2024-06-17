@@ -11,6 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Features\Authentication\Commends\Mapping\" />
+    <Folder Include="Features\Authentication\Commends\Validators\" />
     <Folder Include="Features\Students\Commends\Models\Response\" />
     <Folder Include="Features\Students\Queries\Validators\" />
   </ItemGroup>
