@@ -43,14 +43,17 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
 #endregion
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+//// Configure the HTTP request pipeline.
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//    app.UseSwaggerUI();
+//}
 
 app.UseMiddleware<ExceptionHandlerMiddleware>();
+
+app.UseSwagger();
+app.UseSwaggerUI();
 #region Localization Middleware
 app.UseRequestLocalization(app.Services.GetService<IOptions<RequestLocalizationOptions>>().Value);
 
@@ -58,7 +61,7 @@ app.UseRequestLocalization(app.Services.GetService<IOptions<RequestLocalizationO
 
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

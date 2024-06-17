@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\My Projects\\SchoolProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{88983074-11C2-4F58-9AAB-47FD1F8E8EB3}|School.Presistence\\School.Presistence.csproj|d:\\my projects\\schoolproject\\school.presistence\\school.presistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{88983074-11C2-4F58-9AAB-47FD1F8E8EB3}|School.Presistence\\School.Presistence.csproj|solutionrelative:school.presistence\\school.presistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88983074-11C2-4F58-9AAB-47FD1F8E8EB3}|School.Presistence\\School.Presistence.csproj|d:\\my projects\\schoolproject\\school.presistence\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88983074-11C2-4F58-9AAB-47FD1F8E8EB3}|School.Presistence\\School.Presistence.csproj|solutionrelative:school.presistence\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|d:\\my projects\\schoolproject\\school.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|solutionrelative:school.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88983074-11C2-4F58-9AAB-47FD1F8E8EB3}|School.Presistence\\School.Presistence.csproj|d:\\my projects\\schoolproject\\school.presistence\\registrationmoduledependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88983074-11C2-4F58-9AAB-47FD1F8E8EB3}|School.Presistence\\School.Presistence.csproj|solutionrelative:school.presistence\\registrationmoduledependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88983074-11C2-4F58-9AAB-47FD1F8E8EB3}|School.Presistence\\School.Presistence.csproj|d:\\my projects\\schoolproject\\school.presistence\\presistencemoduledependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88983074-11C2-4F58-9AAB-47FD1F8E8EB3}|School.Presistence\\School.Presistence.csproj|solutionrelative:school.presistence\\presistencemoduledependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|d:\\my projects\\schoolproject\\school.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|solutionrelative:school.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 366,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +46,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "School.Presistence",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Presistence\\School.Presistence.csproj",
+              "RelativeDocumentMoniker": "School.Presistence\\School.Presistence.csproj",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Presistence\\School.Presistence.csproj",
+              "RelativeToolTip": "School.Presistence\\School.Presistence.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-17T05:28:26.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.API\\Program.cs",
               "RelativeDocumentMoniker": "School.API\\Program.cs",
-              "ToolTip": "D:\\My Projects\\SchoolProject\\School.API\\Program.cs",
-              "RelativeToolTip": "School.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAKAAAA",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\School.API\\Program.cs*",
+              "RelativeToolTip": "School.API\\Program.cs*",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADEAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T09:51:36.12Z",
+              "WhenOpened": "2024-06-17T05:11:44.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Presistence\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "School.Presistence\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Presistence\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "School.Presistence\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAswCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T11:27:34.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PresistenceModuleDependencies.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Presistence\\PresistenceModuleDependencies.cs",
               "RelativeDocumentMoniker": "School.Presistence\\PresistenceModuleDependencies.cs",
@@ -64,13 +98,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "RegistrationModuleDependencies.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Presistence\\RegistrationModuleDependencies.cs",
               "RelativeDocumentMoniker": "School.Presistence\\RegistrationModuleDependencies.cs",
               "ToolTip": "D:\\My Projects\\SchoolProject\\School.Presistence\\RegistrationModuleDependencies.cs*",
               "RelativeToolTip": "School.Presistence\\RegistrationModuleDependencies.cs*",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAowCUAAABCAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAswDAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T09:31:37.238Z",
               "EditorCaption": ""
