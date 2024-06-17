@@ -3,6 +3,7 @@ using Microsoft.Extensions.Options;
 using School.Application;
 using School.Application.Middleware;
 using School.Presistence;
+using School.Service;
 using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,7 +21,9 @@ builder.Services.AddSwaggerGen();
 #region Dependencies
 builder.Services.AddApplicationDependancies()
                 .AddPresistenceDependencies()
-                .AddRegistrationModuleDependencies(builder.Configuration); ;
+                .AddApplicationDependancies()
+                .AddRegistrationModuleDependencies(builder.Configuration)
+                .AddServiceDependencies();
 #endregion
 
 #region Localization

@@ -1,11 +1,6 @@
-﻿using School.Application.Contracts.Repositories;
-using School.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore.Storage;
+using School.Application.Contracts.Repositories;
 using School.Presistence.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace School.Presistence.Repositories
 {
@@ -13,8 +8,8 @@ namespace School.Presistence.Repositories
     {
         private readonly ApplicationDbContext _context;
 
-      
-        public IStudentRepo StudentRepo {  get; private set; }
+
+        public IStudentRepo StudentRepo { get; private set; }
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
@@ -22,12 +17,17 @@ namespace School.Presistence.Repositories
         }
         public ValueTask DisposeAsync()
         {
-          return  _context.DisposeAsync();
+            return _context.DisposeAsync();
         }
 
         public Task<int> SaveChangesAsync()
         {
-           return _context.SaveChangesAsync();
+            return _context.SaveChangesAsync();
+        }
+
+        public IDbContextTransaction BeginTransaction()
+        {
+            return _context.Database.BeginTransaction();
         }
     }
 }

@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Extensions.DependencyInjection;
+using School.Application.Contracts.Services;
+using School.Service.Authentication;
 
 namespace School.Service
 {
-    internal class ServiceModuleDependencies
+    public static class ServiceModuleDependencies
     {
+        public static IServiceCollection AddServiceDependencies(this IServiceCollection services)
+        {
+            services.AddScoped<IAuthenticationService, AuthenticationServices>();
+
+            return services;
+        }
     }
 }
