@@ -1,9 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using School.Domain.Base;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace School.Domain.Entities
 {
-    public class Instructor
+    public class Instructor : BaseModel
     {
         public Instructor()
         {
