@@ -1,9 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using School.Domain.Base;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace School.Domain.Entities
 {
-    public partial class Department
+    public partial class Department : BaseModel
     {
         public Department()
         {

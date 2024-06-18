@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "D:\\My Projects\\SchoolProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My Projects\\SchoolProject\\School.Presistence\\Migrations\\20240618071745_addBaseModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:School.Presistence\\Migrations\\20240618071745_addBaseModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842EA0AA-0709-4E6B-A647-A771C313B81F}|Domain\\School.Domain.csproj|d:\\my projects\\schoolproject\\domain\\base\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842EA0AA-0709-4E6B-A647-A771C313B81F}|Domain\\School.Domain.csproj|solutionrelative:domain\\base\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842EA0AA-0709-4E6B-A647-A771C313B81F}|Domain\\School.Domain.csproj|d:\\my projects\\schoolproject\\domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842EA0AA-0709-4E6B-A647-A771C313B81F}|Domain\\School.Domain.csproj|solutionrelative:domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842EA0AA-0709-4E6B-A647-A771C313B81F}|Domain\\School.Domain.csproj|d:\\my projects\\schoolproject\\domain\\entities\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842EA0AA-0709-4E6B-A647-A771C313B81F}|Domain\\School.Domain.csproj|solutionrelative:domain\\entities\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842EA0AA-0709-4E6B-A647-A771C313B81F}|Domain\\School.Domain.csproj|d:\\my projects\\schoolproject\\domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842EA0AA-0709-4E6B-A647-A771C313B81F}|Domain\\School.Domain.csproj|solutionrelative:domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842EA0AA-0709-4E6B-A647-A771C313B81F}|Domain\\School.Domain.csproj|d:\\my projects\\schoolproject\\domain\\entities\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842EA0AA-0709-4E6B-A647-A771C313B81F}|Domain\\School.Domain.csproj|solutionrelative:domain\\entities\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842EA0AA-0709-4E6B-A647-A771C313B81F}|Domain\\School.Domain.csproj|d:\\my projects\\schoolproject\\domain\\entities\\departmentsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842EA0AA-0709-4E6B-A647-A771C313B81F}|Domain\\School.Domain.csproj|solutionrelative:domain\\entities\\departmentsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842EA0AA-0709-4E6B-A647-A771C313B81F}|Domain\\School.Domain.csproj|d:\\my projects\\schoolproject\\domain\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842EA0AA-0709-4E6B-A647-A771C313B81F}|Domain\\School.Domain.csproj|solutionrelative:domain\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\features\\authentication\\commends\\validators\\registrationvalidations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\authentication\\commends\\validators\\registrationvalidations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88983074-11C2-4F58-9AAB-47FD1F8E8EB3}|School.Presistence\\School.Presistence.csproj|d:\\my projects\\schoolproject\\school.presistence\\registrationmoduledependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88983074-11C2-4F58-9AAB-47FD1F8E8EB3}|School.Presistence\\School.Presistence.csproj|solutionrelative:school.presistence\\registrationmoduledependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\authentication\\commends\\models\\requests\\registrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{842EA0AA-0709-4E6B-A647-A771C313B81F}|Domain\\School.Domain.csproj|d:\\my projects\\schoolproject\\domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{842EA0AA-0709-4E6B-A647-A771C313B81F}|Domain\\School.Domain.csproj|solutionrelative:domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ACFC721A-102E-40E1-BBD2-79F7CA2069A2}|School.Service\\School.Service.csproj|d:\\my projects\\schoolproject\\school.service\\authentication\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACFC721A-102E-40E1-BBD2-79F7CA2069A2}|School.Service\\School.Service.csproj|solutionrelative:school.service\\authentication\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,8 +82,86 @@
       "DocumentGroups": [
         {
           "DockedHeight": 366,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240618071745_addBaseModel.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Presistence\\Migrations\\20240618071745_addBaseModel.cs",
+              "RelativeDocumentMoniker": "School.Presistence\\Migrations\\20240618071745_addBaseModel.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Presistence\\Migrations\\20240618071745_addBaseModel.cs",
+              "RelativeToolTip": "School.Presistence\\Migrations\\20240618071745_addBaseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:17:46.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\Domain\\Entities\\Subject.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Subject.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\Domain\\Entities\\Subject.cs",
+              "RelativeToolTip": "Domain\\Entities\\Subject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:53:17.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\Domain\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Student.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\Domain\\Entities\\Student.cs",
+              "RelativeToolTip": "Domain\\Entities\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:53:12.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\Domain\\Entities\\Instructor.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Instructor.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\Domain\\Entities\\Instructor.cs",
+              "RelativeToolTip": "Domain\\Entities\\Instructor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:53:07.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DepartmentSubject.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\Domain\\Entities\\DepartmentSubject.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\DepartmentSubject.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\Domain\\Entities\\DepartmentSubject.cs",
+              "RelativeToolTip": "Domain\\Entities\\DepartmentSubject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:52:55.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\Domain\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Department.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\Domain\\Entities\\Department.cs",
+              "RelativeToolTip": "Domain\\Entities\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:52:36.318Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -65,12 +175,47 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\Domain\\Base\\BaseModel.cs",
+              "RelativeDocumentMoniker": "Domain\\Base\\BaseModel.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\Domain\\Base\\BaseModel.cs",
+              "RelativeToolTip": "Domain\\Base\\BaseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:47:38.342Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "RegistrationValidations.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\Authentication\\Commends\\Validators\\RegistrationValidations.cs",
+              "RelativeDocumentMoniker": "School.Application\\Features\\Authentication\\Commends\\Validators\\RegistrationValidations.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\Authentication\\Commends\\Validators\\RegistrationValidations.cs",
+              "RelativeToolTip": "School.Application\\Features\\Authentication\\Commends\\Validators\\RegistrationValidations.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCQAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:20:18.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\Domain\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ApplicationUser.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\Domain\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "Domain\\Entities\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T12:38:02.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "RegistrationModuleDependencies.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Presistence\\RegistrationModuleDependencies.cs",
               "RelativeDocumentMoniker": "School.Presistence\\RegistrationModuleDependencies.cs",
@@ -83,20 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ServiceModuleDependencies.cs",
-              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Service\\ServiceModuleDependencies.cs",
-              "RelativeDocumentMoniker": "School.Service\\ServiceModuleDependencies.cs",
-              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Service\\ServiceModuleDependencies.cs",
-              "RelativeToolTip": "School.Service\\ServiceModuleDependencies.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T13:27:15.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.API\\Program.cs",
               "RelativeDocumentMoniker": "School.API\\Program.cs",
@@ -104,12 +236,11 @@
               "RelativeToolTip": "School.API\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T13:25:36.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T13:25:36.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "ApplicatonModuleDependencies.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\ApplicatonModuleDependencies.cs",
               "RelativeDocumentMoniker": "School.Application\\ApplicatonModuleDependencies.cs",
@@ -117,12 +248,23 @@
               "RelativeToolTip": "School.Application\\ApplicatonModuleDependencies.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T13:25:19.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T13:25:19.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
+              "Title": "ServiceModuleDependencies.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Service\\ServiceModuleDependencies.cs",
+              "RelativeDocumentMoniker": "School.Service\\ServiceModuleDependencies.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Service\\ServiceModuleDependencies.cs",
+              "RelativeToolTip": "School.Service\\ServiceModuleDependencies.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T13:27:15.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.API\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "School.API\\Controllers\\AuthenticationController.cs",
@@ -130,12 +272,11 @@
               "RelativeToolTip": "School.API\\Controllers\\AuthenticationController.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAAABEAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T13:19:01.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T13:19:01.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "IAuthenticationService.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Contracts\\Services\\IAuthenticationService.cs",
               "RelativeDocumentMoniker": "School.Application\\Contracts\\Services\\IAuthenticationService.cs",
@@ -143,12 +284,11 @@
               "RelativeToolTip": "School.Application\\Contracts\\Services\\IAuthenticationService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T12:50:51.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T12:50:51.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "AuthenticationServices.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Service\\Authentication\\AuthenticationServices.cs",
               "RelativeDocumentMoniker": "School.Service\\Authentication\\AuthenticationServices.cs",
@@ -156,25 +296,11 @@
               "RelativeToolTip": "School.Service\\Authentication\\AuthenticationServices.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwCYAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T12:49:51.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T12:49:51.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\Domain\\Entities\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\ApplicationUser.cs",
-              "ToolTip": "D:\\My Projects\\SchoolProject\\Domain\\Entities\\ApplicationUser.cs",
-              "RelativeToolTip": "Domain\\Entities\\ApplicationUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T12:38:02.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "RegistrationRequest.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\RegistrationRequest.cs",
               "RelativeDocumentMoniker": "School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\RegistrationRequest.cs",
@@ -182,12 +308,11 @@
               "RelativeToolTip": "School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\RegistrationRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T12:37:03.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T12:37:03.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "AuthenticationHandler.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
               "RelativeDocumentMoniker": "School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
@@ -195,8 +320,7 @@
               "RelativeToolTip": "School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T12:43:30.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T12:43:30.163Z"
             }
           ]
         },
