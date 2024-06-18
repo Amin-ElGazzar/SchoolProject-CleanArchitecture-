@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using School.Application.Common.Models;
 
-namespace School.Application.Common.Models
+namespace School.Application.Common.Extensions
 {
     public static class IQueryableExtension
     {
