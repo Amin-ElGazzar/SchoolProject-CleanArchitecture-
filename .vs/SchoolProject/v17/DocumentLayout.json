@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\My Projects\\SchoolProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{88983074-11C2-4F58-9AAB-47FD1F8E8EB3}|School.Presistence\\School.Presistence.csproj|d:\\my projects\\schoolproject\\school.presistence\\registrationmoduledependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88983074-11C2-4F58-9AAB-47FD1F8E8EB3}|School.Presistence\\School.Presistence.csproj|solutionrelative:school.presistence\\registrationmoduledependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\applicatonmoduledependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\applicatonmoduledependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|d:\\my projects\\schoolproject\\school.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|solutionrelative:school.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ACFC721A-102E-40E1-BBD2-79F7CA2069A2}|School.Service\\School.Service.csproj|d:\\my projects\\schoolproject\\school.service\\servicemoduledependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACFC721A-102E-40E1-BBD2-79F7CA2069A2}|School.Service\\School.Service.csproj|solutionrelative:school.service\\servicemoduledependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\applicatonmoduledependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\applicatonmoduledependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\features\\authentication\\commends\\handlers\\authenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 366,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +70,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "RegistrationModuleDependencies.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Presistence\\RegistrationModuleDependencies.cs",
+              "RelativeDocumentMoniker": "School.Presistence\\RegistrationModuleDependencies.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Presistence\\RegistrationModuleDependencies.cs",
+              "RelativeToolTip": "School.Presistence\\RegistrationModuleDependencies.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T14:31:26.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ServiceModuleDependencies.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Service\\ServiceModuleDependencies.cs",
               "RelativeDocumentMoniker": "School.Service\\ServiceModuleDependencies.cs",
@@ -79,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.API\\Program.cs",
               "RelativeDocumentMoniker": "School.API\\Program.cs",
@@ -92,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ApplicatonModuleDependencies.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\ApplicatonModuleDependencies.cs",
               "RelativeDocumentMoniker": "School.Application\\ApplicatonModuleDependencies.cs",
@@ -105,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.API\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "School.API\\Controllers\\AuthenticationController.cs",
@@ -118,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IAuthenticationService.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Contracts\\Services\\IAuthenticationService.cs",
               "RelativeDocumentMoniker": "School.Application\\Contracts\\Services\\IAuthenticationService.cs",
@@ -131,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AuthenticationServices.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Service\\Authentication\\AuthenticationServices.cs",
               "RelativeDocumentMoniker": "School.Service\\Authentication\\AuthenticationServices.cs",
@@ -144,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\Domain\\Entities\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\ApplicationUser.cs",
@@ -157,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RegistrationRequest.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\RegistrationRequest.cs",
               "RelativeDocumentMoniker": "School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\RegistrationRequest.cs",
@@ -170,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AuthenticationHandler.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
               "RelativeDocumentMoniker": "School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
