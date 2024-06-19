@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\My Projects\\SchoolProject\\",
+<<<<<<< HEAD
   "Documents": [],
+=======
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\features\\user\\query\\handlers\\userqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\user\\query\\handlers\\userqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\features\\user\\query\\models\\request\\usergetallrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\user\\query\\models\\request\\usergetallrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|d:\\my projects\\schoolproject\\school.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|solutionrelative:school.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\features\\user\\query\\models\\request\\usergetbyidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\user\\query\\models\\request\\usergetbyidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\features\\user\\query\\mapping\\userqueryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\user\\query\\mapping\\userqueryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\features\\user\\query\\models\\responses\\usergetallresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\user\\query\\models\\responses\\usergetallresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+>>>>>>> d9e3b5fa30b974dd4bb3785426389c2809fd4392
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +38,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 366,
+<<<<<<< HEAD
           "SelectedChildIndex": -1,
+=======
+          "SelectedChildIndex": 7,
+>>>>>>> d9e3b5fa30b974dd4bb3785426389c2809fd4392
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +55,87 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+<<<<<<< HEAD
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "School.API\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\School.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "School.API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAwwBUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:53:52.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserGetAllResponse.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\User\\Query\\Models\\responses\\UserGetAllResponse.cs",
+              "RelativeDocumentMoniker": "School.Application\\Features\\User\\Query\\Models\\responses\\UserGetAllResponse.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\User\\Query\\Models\\responses\\UserGetAllResponse.cs",
+              "RelativeToolTip": "School.Application\\Features\\User\\Query\\Models\\responses\\UserGetAllResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:53:05.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserGetByIdRequest.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\User\\Query\\Models\\Request\\UserGetByIdRequest.cs",
+              "RelativeDocumentMoniker": "School.Application\\Features\\User\\Query\\Models\\Request\\UserGetByIdRequest.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\User\\Query\\Models\\Request\\UserGetByIdRequest.cs",
+              "RelativeToolTip": "School.Application\\Features\\User\\Query\\Models\\Request\\UserGetByIdRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:52:14.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserGetAllRequest.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\User\\Query\\Models\\Request\\UserGetAllRequest.cs",
+              "RelativeDocumentMoniker": "School.Application\\Features\\User\\Query\\Models\\Request\\UserGetAllRequest.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\User\\Query\\Models\\Request\\UserGetAllRequest.cs*",
+              "RelativeToolTip": "School.Application\\Features\\User\\Query\\Models\\Request\\UserGetAllRequest.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:51:07.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserQueryHandler.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\User\\Query\\Handlers\\UserQueryHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Features\\User\\Query\\Handlers\\UserQueryHandler.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\User\\Query\\Handlers\\UserQueryHandler.cs",
+              "RelativeToolTip": "School.Application\\Features\\User\\Query\\Handlers\\UserQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:49:43.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserQueryProfile.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\User\\Query\\Mapping\\UserQueryProfile.cs",
+              "RelativeDocumentMoniker": "School.Application\\Features\\User\\Query\\Mapping\\UserQueryProfile.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\User\\Query\\Mapping\\UserQueryProfile.cs",
+              "RelativeToolTip": "School.Application\\Features\\User\\Query\\Mapping\\UserQueryProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:47:59.664Z",
+              "EditorCaption": ""
+>>>>>>> d9e3b5fa30b974dd4bb3785426389c2809fd4392
             }
           ]
         },
