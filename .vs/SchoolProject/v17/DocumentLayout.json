@@ -8,26 +8,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\features\\user\\query\\handlers\\userqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\user\\query\\handlers\\userqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\features\\user\\query\\models\\request\\usergetallrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\user\\query\\models\\request\\usergetallrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|d:\\my projects\\schoolproject\\school.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|solutionrelative:school.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\features\\user\\query\\models\\request\\usergetbyidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\user\\query\\models\\request\\usergetbyidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\features\\user\\query\\mapping\\userqueryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\user\\query\\mapping\\userqueryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\features\\user\\query\\models\\responses\\usergetallresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\user\\query\\models\\responses\\usergetallresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
 >>>>>>> d9e3b5fa30b974dd4bb3785426389c2809fd4392
@@ -39,10 +19,14 @@
         {
           "DockedHeight": 366,
 <<<<<<< HEAD
+<<<<<<< HEAD
           "SelectedChildIndex": -1,
 =======
           "SelectedChildIndex": 7,
 >>>>>>> d9e3b5fa30b974dd4bb3785426389c2809fd4392
+=======
+          "SelectedChildIndex": 2,
+>>>>>>> 76d8962a45c019e16502f1de9e7dc79af2e89b29
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,6 +37,7 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+<<<<<<< HEAD
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
 <<<<<<< HEAD
@@ -111,6 +96,8 @@
               "EditorCaption": ""
             },
             {
+=======
+>>>>>>> 76d8962a45c019e16502f1de9e7dc79af2e89b29
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UserQueryHandler.cs",
@@ -118,12 +105,13 @@
               "RelativeDocumentMoniker": "School.Application\\Features\\User\\Query\\Handlers\\UserQueryHandler.cs",
               "ToolTip": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\User\\Query\\Handlers\\UserQueryHandler.cs",
               "RelativeToolTip": "School.Application\\Features\\User\\Query\\Handlers\\UserQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T14:49:43.591Z",
+              "WhenOpened": "2024-06-18T15:25:12.7Z",
               "EditorCaption": ""
             },
             {
+<<<<<<< HEAD
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "UserQueryProfile.cs",
@@ -136,6 +124,10 @@
               "WhenOpened": "2024-06-18T14:47:59.664Z",
               "EditorCaption": ""
 >>>>>>> d9e3b5fa30b974dd4bb3785426389c2809fd4392
+=======
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+>>>>>>> 76d8962a45c019e16502f1de9e7dc79af2e89b29
             }
           ]
         },
