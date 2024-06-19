@@ -1,15 +1,18 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Localization;
+using School.Application.Common.Models;
 using School.Application.Features.Authentication.Commends.Models.Requests;
+using School.Application.SharedResources;
 using School.Domain.Entities;
 using IAuthenticationService = School.Application.Contracts.Services.IAuthenticationService;
 
 namespace School.Service.Authentication
 {
-    public class AuthenticationServices : IAuthenticationService
+    public class AuthenticationServices : ResponseHandler, IAuthenticationService
     {
         private readonly UserManager<ApplicationUser> _userManager;
 
-        public AuthenticationServices(UserManager<ApplicationUser> userManager)
+        public AuthenticationServices(UserManager<ApplicationUser> userManager, IStringLocalizer<Resource> localizer) : base(localizer)
         {
             _userManager = userManager;
         }
@@ -38,5 +41,21 @@ namespace School.Service.Authentication
             }
             return user;
         }
+
+        public async Task<Response<string>> ChangePasswordAsync(string userId, string oldPassword, string newPassword)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null) return BadRequest<string>("user not registered");
+
+            var passwordChangeResult = await _userManager.ChangePasswordAsync(user, oldPassword, newPassword);
+            if (!passwordChangeResult.Succeeded)
+            {
+                return BadRequest<string>("Failed to change password");
+            }
+
+            return Success<string>("success");
+        }
+
+
     }
 }

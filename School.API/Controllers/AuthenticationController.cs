@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using School.API.Base;
 using School.Application.Features.Authentication.Commends.Models.Requests;
+using School.Application.Features.Authentication.Commends.ViewModel;
 
 namespace School.API.Controllers
 {
@@ -20,6 +21,14 @@ namespace School.API.Controllers
         {
             var result = await _mediator.Send(request);
             return GetResponse(result);
+        }
+
+        [HttpPut("changePassword")]
+        public async Task<IActionResult> ChangePasswordAsync(ChangePasswordViewModel request)
+        {
+            ChangePasswordRequest model = new ChangePasswordRequest(request, User);
+            var resutl = await _mediator.Send(model);
+            return GetResponse(resutl);
         }
     }
 }

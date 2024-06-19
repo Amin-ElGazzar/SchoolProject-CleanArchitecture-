@@ -66,5 +66,15 @@ namespace School.Application.Common.Models
             };
         }
 
+        public Response<T> BadRequest<T>(string message)
+        {
+            return new Response<T>
+            {
+                Succeeded = false,
+                Message = message ?? "Bad Request",
+                StatusCode = System.Net.HttpStatusCode.BadRequest,
+            };
+
+        }
     }
 }
