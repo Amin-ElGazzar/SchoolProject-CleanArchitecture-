@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rZJqt235+us=",
+  "dgSpecHash": "AQwjcuCj/HI=",
   "success": true,
-  "projectFilePath": "D:\\My Projects\\SchoolProject\\Domain\\School.Domain.csproj",
+  "projectFilePath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\Domain\\School.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\e9756\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\e9756\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

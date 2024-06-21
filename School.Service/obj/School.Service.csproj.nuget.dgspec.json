@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My Projects\\SchoolProject\\School.Service\\School.Service.csproj": {}
+    "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Service\\School.Service.csproj": {}
   },
   "projects": {
-    "D:\\My Projects\\SchoolProject\\Domain\\School.Domain.csproj": {
+    "D:\\My Projects\\SchoolProject-CleanArchitecture-\\Domain\\School.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Projects\\SchoolProject\\Domain\\School.Domain.csproj",
+        "projectUniqueName": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\Domain\\School.Domain.csproj",
         "projectName": "School.Domain",
-        "projectPath": "D:\\My Projects\\SchoolProject\\Domain\\School.Domain.csproj",
+        "projectPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\Domain\\School.Domain.csproj",
         "packagesPath": "C:\\Users\\e9756\\.nuget\\packages\\",
-        "outputPath": "D:\\My Projects\\SchoolProject\\Domain\\obj\\",
+        "outputPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\e9756\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,14 +79,14 @@
         }
       }
     },
-    "D:\\My Projects\\SchoolProject\\School.Application\\School.Application.csproj": {
+    "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\School.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Projects\\SchoolProject\\School.Application\\School.Application.csproj",
+        "projectUniqueName": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\School.Application.csproj",
         "projectName": "School.Application",
-        "projectPath": "D:\\My Projects\\SchoolProject\\School.Application\\School.Application.csproj",
+        "projectPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\School.Application.csproj",
         "packagesPath": "C:\\Users\\e9756\\.nuget\\packages\\",
-        "outputPath": "D:\\My Projects\\SchoolProject\\School.Application\\obj\\",
+        "outputPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\e9756\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,8 +104,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\My Projects\\SchoolProject\\Domain\\School.Domain.csproj": {
-                "projectPath": "D:\\My Projects\\SchoolProject\\Domain\\School.Domain.csproj"
+              "D:\\My Projects\\SchoolProject-CleanArchitecture-\\Domain\\School.Domain.csproj": {
+                "projectPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\Domain\\School.Domain.csproj"
               }
             }
           }
@@ -174,14 +174,14 @@
         }
       }
     },
-    "D:\\My Projects\\SchoolProject\\School.Presistence\\School.Presistence.csproj": {
+    "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Presistence\\School.Presistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Projects\\SchoolProject\\School.Presistence\\School.Presistence.csproj",
+        "projectUniqueName": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Presistence\\School.Presistence.csproj",
         "projectName": "School.Presistence",
-        "projectPath": "D:\\My Projects\\SchoolProject\\School.Presistence\\School.Presistence.csproj",
+        "projectPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Presistence\\School.Presistence.csproj",
         "packagesPath": "C:\\Users\\e9756\\.nuget\\packages\\",
-        "outputPath": "D:\\My Projects\\SchoolProject\\School.Presistence\\obj\\",
+        "outputPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Presistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\e9756\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -199,11 +199,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\My Projects\\SchoolProject\\Domain\\School.Domain.csproj": {
-                "projectPath": "D:\\My Projects\\SchoolProject\\Domain\\School.Domain.csproj"
+              "D:\\My Projects\\SchoolProject-CleanArchitecture-\\Domain\\School.Domain.csproj": {
+                "projectPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\Domain\\School.Domain.csproj"
               },
-              "D:\\My Projects\\SchoolProject\\School.Application\\School.Application.csproj": {
-                "projectPath": "D:\\My Projects\\SchoolProject\\School.Application\\School.Application.csproj"
+              "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\School.Application.csproj": {
+                "projectPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\School.Application.csproj"
               }
             }
           }
@@ -254,14 +254,14 @@
         }
       }
     },
-    "D:\\My Projects\\SchoolProject\\School.Service\\School.Service.csproj": {
+    "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Service\\School.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Projects\\SchoolProject\\School.Service\\School.Service.csproj",
+        "projectUniqueName": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Service\\School.Service.csproj",
         "projectName": "School.Service",
-        "projectPath": "D:\\My Projects\\SchoolProject\\School.Service\\School.Service.csproj",
+        "projectPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Service\\School.Service.csproj",
         "packagesPath": "C:\\Users\\e9756\\.nuget\\packages\\",
-        "outputPath": "D:\\My Projects\\SchoolProject\\School.Service\\obj\\",
+        "outputPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\e9756\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -279,8 +279,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\My Projects\\SchoolProject\\School.Presistence\\School.Presistence.csproj": {
-                "projectPath": "D:\\My Projects\\SchoolProject\\School.Presistence\\School.Presistence.csproj"
+              "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Presistence\\School.Presistence.csproj": {
+                "projectPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Presistence\\School.Presistence.csproj"
               }
             }
           }

@@ -1,33 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\My Projects\\SchoolProject\\",
+  "WorkspaceRootPath": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|d:\\my projects\\schoolproject\\school.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\new folder\\schoolproject-cleanarchitecture-\\school.application\\features\\authentication\\commends\\models\\requests\\registrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\authentication\\commends\\models\\requests\\registrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|d:\\my projects\\new folder\\schoolproject-cleanarchitecture-\\school.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|solutionrelative:school.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\features\\authentication\\commends\\handlers\\authenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\new folder\\schoolproject-cleanarchitecture-\\school.application\\features\\authentication\\commends\\handlers\\authenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\authentication\\commends\\handlers\\authenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACFC721A-102E-40E1-BBD2-79F7CA2069A2}|School.Service\\School.Service.csproj|d:\\my projects\\schoolproject\\school.service\\authentication\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ACFC721A-102E-40E1-BBD2-79F7CA2069A2}|School.Service\\School.Service.csproj|d:\\my projects\\new folder\\schoolproject-cleanarchitecture-\\school.service\\authentication\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACFC721A-102E-40E1-BBD2-79F7CA2069A2}|School.Service\\School.Service.csproj|solutionrelative:school.service\\authentication\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\common\\models\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\new folder\\schoolproject-cleanarchitecture-\\school.application\\common\\models\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\common\\models\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\contracts\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\new folder\\schoolproject-cleanarchitecture-\\school.application\\contracts\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\contracts\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\features\\authentication\\commends\\models\\requests\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\new folder\\schoolproject-cleanarchitecture-\\school.application\\features\\authentication\\commends\\models\\requests\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\authentication\\commends\\models\\requests\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject\\school.application\\features\\authentication\\commends\\viewmodel\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\new folder\\schoolproject-cleanarchitecture-\\school.application\\features\\authentication\\commends\\viewmodel\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\authentication\\commends\\viewmodel\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,47 +42,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 366,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.API\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "School.API\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "D:\\My Projects\\SchoolProject\\School.API\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "School.API\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T16:14:58.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAuthenticationService.cs",
-              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Contracts\\Services\\IAuthenticationService.cs",
-              "RelativeDocumentMoniker": "School.Application\\Contracts\\Services\\IAuthenticationService.cs",
-              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Application\\Contracts\\Services\\IAuthenticationService.cs",
-              "RelativeToolTip": "School.Application\\Contracts\\Services\\IAuthenticationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T16:09:49.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ResponseHandler.cs",
-              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Common\\Models\\ResponseHandler.cs",
-              "RelativeDocumentMoniker": "School.Application\\Common\\Models\\ResponseHandler.cs",
-              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Application\\Common\\Models\\ResponseHandler.cs",
-              "RelativeToolTip": "School.Application\\Common\\Models\\ResponseHandler.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAkwEkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T15:41:54.711Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -88,60 +53,102 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthenticationServices.cs",
-              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Service\\Authentication\\AuthenticationServices.cs",
-              "RelativeDocumentMoniker": "School.Service\\Authentication\\AuthenticationServices.cs",
-              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Service\\Authentication\\AuthenticationServices.cs",
-              "RelativeToolTip": "School.Service\\Authentication\\AuthenticationServices.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAYwAYAAAAGAAAA",
+              "DocumentIndex": 0,
+              "Title": "RegistrationRequest.cs",
+              "DocumentMoniker": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\RegistrationRequest.cs",
+              "RelativeDocumentMoniker": "School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\RegistrationRequest.cs",
+              "ToolTip": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\RegistrationRequest.cs",
+              "RelativeToolTip": "School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\RegistrationRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T15:35:05.147Z",
+              "WhenOpened": "2024-06-21T06:02:53.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthenticationHandler.cs",
-              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
-              "RelativeDocumentMoniker": "School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
-              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
-              "RelativeToolTip": "School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAwCQAAAAaAAAA",
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\School.API\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "School.API\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\School.API\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "School.API\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T15:33:31.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ChangePasswordViewModel.cs",
-              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\Authentication\\Commends\\ViewModel\\ChangePasswordViewModel.cs",
-              "RelativeDocumentMoniker": "School.Application\\Features\\Authentication\\Commends\\ViewModel\\ChangePasswordViewModel.cs",
-              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\Authentication\\Commends\\ViewModel\\ChangePasswordViewModel.cs",
-              "RelativeToolTip": "School.Application\\Features\\Authentication\\Commends\\ViewModel\\ChangePasswordViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T15:32:50.361Z",
+              "WhenOpened": "2024-06-19T16:14:58.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\School.Application\\Contracts\\Services\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "School.Application\\Contracts\\Services\\IAuthenticationService.cs",
+              "ToolTip": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\School.Application\\Contracts\\Services\\IAuthenticationService.cs",
+              "RelativeToolTip": "School.Application\\Contracts\\Services\\IAuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:09:49.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResponseHandler.cs",
+              "DocumentMoniker": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\School.Application\\Common\\Models\\ResponseHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Common\\Models\\ResponseHandler.cs",
+              "ToolTip": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\School.Application\\Common\\Models\\ResponseHandler.cs",
+              "RelativeToolTip": "School.Application\\Common\\Models\\ResponseHandler.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwEkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:41:54.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthenticationServices.cs",
+              "DocumentMoniker": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\School.Service\\Authentication\\AuthenticationServices.cs",
+              "RelativeDocumentMoniker": "School.Service\\Authentication\\AuthenticationServices.cs",
+              "ToolTip": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\School.Service\\Authentication\\AuthenticationServices.cs",
+              "RelativeToolTip": "School.Service\\Authentication\\AuthenticationServices.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAYwAYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:35:05.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationHandler.cs",
+              "DocumentMoniker": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
+              "ToolTip": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
+              "RelativeToolTip": "School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwCQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:33:31.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\Authentication\\Commends\\ViewModel\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "School.Application\\Features\\Authentication\\Commends\\ViewModel\\ChangePasswordViewModel.cs",
+              "ToolTip": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\Authentication\\Commends\\ViewModel\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "School.Application\\Features\\Authentication\\Commends\\ViewModel\\ChangePasswordViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:32:50.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ChangePasswordRequest.cs",
-              "DocumentMoniker": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\ChangePasswordRequest.cs",
+              "DocumentMoniker": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\ChangePasswordRequest.cs",
               "RelativeDocumentMoniker": "School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\ChangePasswordRequest.cs",
-              "ToolTip": "D:\\My Projects\\SchoolProject\\School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\ChangePasswordRequest.cs",
+              "ToolTip": "D:\\My Projects\\New folder\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\ChangePasswordRequest.cs",
               "RelativeToolTip": "School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\ChangePasswordRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T15:27:46.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T15:27:46.209Z"
             }
           ]
         },

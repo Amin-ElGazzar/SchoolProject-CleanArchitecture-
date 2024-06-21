@@ -5739,11 +5739,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My Projects\\SchoolProject\\School.API\\School.API.csproj",
+      "projectUniqueName": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.API\\School.API.csproj",
       "projectName": "School.API",
-      "projectPath": "D:\\My Projects\\SchoolProject\\School.API\\School.API.csproj",
+      "projectPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.API\\School.API.csproj",
       "packagesPath": "C:\\Users\\e9756\\.nuget\\packages\\",
-      "outputPath": "D:\\My Projects\\SchoolProject\\School.API\\obj\\",
+      "outputPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\e9756\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5761,17 +5761,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\My Projects\\SchoolProject\\Domain\\School.Domain.csproj": {
-              "projectPath": "D:\\My Projects\\SchoolProject\\Domain\\School.Domain.csproj"
+            "D:\\My Projects\\SchoolProject-CleanArchitecture-\\Domain\\School.Domain.csproj": {
+              "projectPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\Domain\\School.Domain.csproj"
             },
-            "D:\\My Projects\\SchoolProject\\School.Application\\School.Application.csproj": {
-              "projectPath": "D:\\My Projects\\SchoolProject\\School.Application\\School.Application.csproj"
+            "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\School.Application.csproj": {
+              "projectPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\School.Application.csproj"
             },
-            "D:\\My Projects\\SchoolProject\\School.Presistence\\School.Presistence.csproj": {
-              "projectPath": "D:\\My Projects\\SchoolProject\\School.Presistence\\School.Presistence.csproj"
+            "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Presistence\\School.Presistence.csproj": {
+              "projectPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Presistence\\School.Presistence.csproj"
             },
-            "D:\\My Projects\\SchoolProject\\School.Service\\School.Service.csproj": {
-              "projectPath": "D:\\My Projects\\SchoolProject\\School.Service\\School.Service.csproj"
+            "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Service\\School.Service.csproj": {
+              "projectPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Service\\School.Service.csproj"
             }
           }
         }

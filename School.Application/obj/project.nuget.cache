@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3fvX117pvPk=",
+  "dgSpecHash": "Tcn811IgvfM=",
   "success": true,
-  "projectFilePath": "D:\\My Projects\\SchoolProject\\School.Application\\School.Application.csproj",
+  "projectFilePath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\School.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\e9756\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\e9756\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
