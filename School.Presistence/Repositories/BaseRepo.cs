@@ -1,12 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using School.Application.Contracts.Repositories;
 using School.Presistence.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace School.Presistence.Repositories
 {
@@ -19,7 +14,7 @@ namespace School.Presistence.Repositories
         #region constructor
         public BaseRepo(ApplicationDbContext context)
         {
-           _context = context;
+            _context = context;
         }
         #endregion
 
@@ -43,7 +38,7 @@ namespace School.Presistence.Repositories
             _context.Set<T>().Update(entity);
             return entity;
         }
-        public void Delete(T entity)
+        public virtual void Delete(T entity)
         {
             _context.Remove(entity);
         }
@@ -52,7 +47,7 @@ namespace School.Presistence.Repositories
             return await _context.Set<T>().AnyAsync(expression);
         }
 
-     
+
         #endregion
 
     }

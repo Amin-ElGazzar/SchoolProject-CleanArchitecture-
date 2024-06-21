@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using School.API.Base;
+using School.Application.Features.User.Commends.Model.Request;
 using School.Application.Features.User.Query.Models.Request;
 
 namespace School.API.Controllers
@@ -27,6 +28,12 @@ namespace School.API.Controllers
         public async Task<IActionResult> Get([FromRoute] string id)
         {
             var result = await _mediator.Send(new UserGetByIdRequest() { Id = id });
+            return GetResponse(result);
+        }
+        [HttpPut("edit")]
+        public async Task<IActionResult> EditUserAsync([FromForm] UserEditRequest request)
+        {
+            var result = await _mediator.Send(request);
             return GetResponse(result);
         }
     }

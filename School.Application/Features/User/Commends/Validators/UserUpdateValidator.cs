@@ -1,46 +1,48 @@
 ﻿using FluentValidation;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using School.Application.Common.Extensions;
-using School.Application.Features.Authentication.Commends.Models.Requests;
+using School.Application.Features.User.Commends.Model.Request;
 using School.Domain.Entities;
 
-namespace School.Application.Features.Authentication.Commends.Validators
+namespace School.Application.Features.User.Commends.Validators
 {
-    public class RegistrationValidations : AbstractValidator<RegistrationRequest>
+    public class UserUpdateValidator : AbstractValidator<UserEditRequest>
     {
         private readonly UserManager<ApplicationUser> _userManager;
 
-        public RegistrationValidations(UserManager<ApplicationUser> userManager)
+        public UserUpdateValidator(UserManager<ApplicationUser> userManager)
         {
             _userManager = userManager;
             applyValidator();
+
         }
 
         private void applyValidator()
         {
+            RuleFor(x => x)
+                .NotEmpty()
+                .NotNull();
+
             RuleFor(x => x.UserName)
                 .NotEmpty()
                 .NotNull()
-                .MustAsync(async (key, CancellationToken) =>
+                .MustAsync(async (model, key, CancellationToken) =>
                 {
-                    var user = await _userManager.FindByNameAsync(key);
-                    return user == null;
+
+                    return !await _userManager.Users.AnyAsync(x => x.UserName == key && x.Id != model.Id);
                 })
                 .WithMessage("The username is already in use.");
 
             RuleFor(x => x.Email)
                 .NotEmpty()
                 .NotNull()
-                .MustAsync(async (key, CancellationToken) =>
+            .MustAsync(async (model, key, CancellationToken) =>
                 {
-                    var user = await _userManager.FindByEmailAsync(key);
-                    return user == null;
+                    return !await _userManager.Users.AnyAsync(x => x.Email == key && x.Id != model.Id);
                 })
                 .WithMessage("The email is already in use.");
 
-            RuleFor(x => x.ConfirmPassword)
-               .Equal(x => x.Password)
-               .WithMessage("Password and confirm password not same");
 
             RuleFor(x => x.Image)
                .NotEmpty()
