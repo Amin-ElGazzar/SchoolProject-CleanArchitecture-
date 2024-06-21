@@ -10,7 +10,8 @@ using School.Domain.Entities;
 namespace School.Application.Features.User.Commends.Handlers
 {
     public class UserCommendHandler : ResponseHandler,
-                                                    IRequestHandler<UserEditRequest, Response<string>>
+                                                    IRequestHandler<UserEditRequest, Response<string>>,
+                                                    IRequestHandler<UserDeleteRequest, Response<string>>
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IMapper _mapper;
@@ -27,6 +28,15 @@ namespace School.Application.Features.User.Commends.Handlers
             _mapper.Map(request, user);
             await _userManager.UpdateAsync(user);
             return EditSuccess<string>();
+        }
+
+        public async Task<Response<string>> Handle(UserDeleteRequest request, CancellationToken cancellationToken)
+        {
+            var user = await _userManager.FindByIdAsync(request.UserId);
+            if (user == null) NotFound<string>();
+            user.IsDeleted = true;
+            await _userManager.UpdateAsync(user);
+            return Deleted<string>();
         }
     }
 }
