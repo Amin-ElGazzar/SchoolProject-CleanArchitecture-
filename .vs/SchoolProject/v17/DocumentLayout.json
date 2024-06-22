@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ACFC721A-102E-40E1-BBD2-79F7CA2069A2}|School.Service\\School.Service.csproj|d:\\my projects\\schoolproject-cleanarchitecture-\\school.service\\authentication\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFC721A-102E-40E1-BBD2-79F7CA2069A2}|School.Service\\School.Service.csproj|solutionrelative:school.service\\authentication\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|d:\\my projects\\schoolproject-cleanarchitecture-\\school.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|solutionrelative:school.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 366,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +70,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "AuthenticationServices.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Service\\Authentication\\AuthenticationServices.cs",
+              "RelativeDocumentMoniker": "School.Service\\Authentication\\AuthenticationServices.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Service\\Authentication\\AuthenticationServices.cs",
+              "RelativeToolTip": "School.Service\\Authentication\\AuthenticationServices.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T08:10:22.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UserDeleteValidator.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\User\\Commends\\Validators\\UserDeleteValidator.cs",
               "RelativeDocumentMoniker": "School.Application\\Features\\User\\Commends\\Validators\\UserDeleteValidator.cs",
@@ -74,12 +91,11 @@
               "RelativeToolTip": "School.Application\\Features\\User\\Commends\\Validators\\UserDeleteValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T08:40:49.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T08:40:49.933Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserDeleteRequest.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\User\\Commends\\Model\\Request\\UserDeleteRequest.cs",
               "RelativeDocumentMoniker": "School.Application\\Features\\User\\Commends\\Model\\Request\\UserDeleteRequest.cs",
@@ -87,25 +103,24 @@
               "RelativeToolTip": "School.Application\\Features\\User\\Commends\\Model\\Request\\UserDeleteRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T08:39:26.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T08:39:26.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.API\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "School.API\\Controllers\\UserController.cs",
               "ToolTip": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.API\\Controllers\\UserController.cs",
               "RelativeToolTip": "School.API\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAzwCoAAAAnAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwCoAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-21T06:42:11.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "StudentRepo.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Presistence\\Repositories\\StudentRepo.cs",
               "RelativeDocumentMoniker": "School.Presistence\\Repositories\\StudentRepo.cs",
@@ -113,12 +128,11 @@
               "RelativeToolTip": "School.Presistence\\Repositories\\StudentRepo.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAnwAcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T06:37:27.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T06:37:27.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserCommendHandler.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\User\\Commends\\Handlers\\UserCommendHandler.cs",
               "RelativeDocumentMoniker": "School.Application\\Features\\User\\Commends\\Handlers\\UserCommendHandler.cs",
@@ -126,12 +140,11 @@
               "RelativeToolTip": "School.Application\\Features\\User\\Commends\\Handlers\\UserCommendHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T06:33:02.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T06:33:02.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserUpdateValidator.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\User\\Commends\\Validators\\UserUpdateValidator.cs",
               "RelativeDocumentMoniker": "School.Application\\Features\\User\\Commends\\Validators\\UserUpdateValidator.cs",
@@ -139,12 +152,11 @@
               "RelativeToolTip": "School.Application\\Features\\User\\Commends\\Validators\\UserUpdateValidator.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAQwCcAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T06:14:34.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T06:14:34.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UserQueryProfile.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\User\\Commends\\Mapping\\UserQueryProfile.cs",
               "RelativeDocumentMoniker": "School.Application\\Features\\User\\Commends\\Mapping\\UserQueryProfile.cs",
@@ -152,12 +164,11 @@
               "RelativeToolTip": "School.Application\\Features\\User\\Commends\\Mapping\\UserQueryProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T06:31:34.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T06:31:34.537Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "RegistrationValidations.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\Authentication\\Commends\\Validators\\RegistrationValidations.cs",
               "RelativeDocumentMoniker": "School.Application\\Features\\Authentication\\Commends\\Validators\\RegistrationValidations.cs",
@@ -165,12 +176,11 @@
               "RelativeToolTip": "School.Application\\Features\\Authentication\\Commends\\Validators\\RegistrationValidations.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAswBAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T06:15:30.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T06:15:30.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "RegistrationRequest.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\RegistrationRequest.cs",
               "RelativeDocumentMoniker": "School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\RegistrationRequest.cs",
@@ -178,12 +188,11 @@
               "RelativeToolTip": "School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\RegistrationRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T06:12:34.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T06:12:34.768Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserEditRequest.cs",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\User\\Commends\\Model\\Request\\UserEditRequest.cs",
               "RelativeDocumentMoniker": "School.Application\\Features\\User\\Commends\\Model\\Request\\UserEditRequest.cs",
@@ -191,8 +200,7 @@
               "RelativeToolTip": "School.Application\\Features\\User\\Commends\\Model\\Request\\UserEditRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T06:12:00.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T06:12:00.086Z"
             }
           ]
         },

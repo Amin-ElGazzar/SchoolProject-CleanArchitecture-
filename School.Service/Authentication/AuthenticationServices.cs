@@ -52,7 +52,7 @@ namespace School.Service.Authentication
             {
                 return BadRequest<string>("Failed to change password");
             }
-
+            //dddddddddddddd
             return Success<string>("success");
         }
 
