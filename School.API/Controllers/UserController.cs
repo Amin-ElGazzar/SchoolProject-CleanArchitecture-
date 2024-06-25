@@ -42,5 +42,8 @@ namespace School.API.Controllers
             var result = await _mediator.Send(new UserDeleteRequest() { UserId = id });
             return GetResponse(result);
         }
+        ///ddddddddddddds
+        ////
+        //ddddddd
     }
 }
