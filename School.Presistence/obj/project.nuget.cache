@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oAiSExhDi08=",
+  "dgSpecHash": "VnWu5ijUXUY=",
   "success": true,
-  "projectFilePath": "D:\\My Projects\\SchoolProject-CleanArchitecture-\\School.Presistence\\School.Presistence.csproj",
+  "projectFilePath": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.Presistence\\School.Presistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\e9756\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\e9756\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
