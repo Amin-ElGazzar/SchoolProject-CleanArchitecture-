@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Localization;
 using School.Application.Common.Models;
+using School.Application.Contracts.Services;
 using School.Application.Features.Authentication.Commends.Models.Requests;
+using School.Application.Features.Authentication.Commends.Models.Response;
 using School.Application.SharedResources;
 using School.Domain.Entities;
-using IAuthenticationService = School.Application.Contracts.Services.IAuthenticationService;
+
 
 namespace School.Service.Authentication
 {
@@ -42,6 +44,18 @@ namespace School.Service.Authentication
             return user;
         }
 
+
+
+        public async Task<TokenModleResponse> SignInAsync(SignInRequest request)
+        {
+            var user = await _userManager.FindByEmailAsync(request.UserName);
+            user = user ??= await _userManager.FindByNameAsync(request.UserName);
+            if (user == null || await _userManager.CheckPasswordAsync(user, request.Password))
+            {
+                return new TokenModleResponse() { }
+        }
+        }
+
         public async Task<Response<string>> ChangePasswordAsync(string userId, string oldPassword, string newPassword)
         {
             var user = await _userManager.FindByIdAsync(userId);
@@ -52,10 +66,7 @@ namespace School.Service.Authentication
             {
                 return BadRequest<string>("Failed to change password");
             }
-            //dddddddddddddd
             return Success<string>("success");
         }
-
-
     }
 }
