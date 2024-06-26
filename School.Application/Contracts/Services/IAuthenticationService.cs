@@ -8,7 +8,7 @@ namespace School.Application.Contracts.Services
     public interface IAuthenticationService
     {
         Task<ApplicationUser> RegisterAsync(RegistrationRequest request);
-        Task<TokenModleResponse> SignInAsync(ApplicationUser user);
+        Task<TokenModleResponse> SignInAsync(SignInRequest request);
         Task<Response<string>> ChangePasswordAsync(string userId, string oldPassword, string newPassword);
     }
 }
