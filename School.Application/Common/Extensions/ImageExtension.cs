@@ -15,7 +15,7 @@ namespace School.Application.Common.Extensions
 
         public static bool CheckImageSize(this IFormFile file)
         {
-            if (file.Length > 2 / 1024 * 1024)
+            if (file.Length > 2 * 1024 * 1024)
                 return false;
             return true;
         }

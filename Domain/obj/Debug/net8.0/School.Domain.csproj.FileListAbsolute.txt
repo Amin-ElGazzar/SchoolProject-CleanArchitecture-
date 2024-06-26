@@ -36,3 +36,16 @@ D:\My Projects\SchoolProject-CleanArchitecture-\Domain\obj\Debug\net8.0\School.D
 D:\My Projects\SchoolProject-CleanArchitecture-\Domain\obj\Debug\net8.0\refint\School.Domain.dll
 D:\My Projects\SchoolProject-CleanArchitecture-\Domain\obj\Debug\net8.0\School.Domain.pdb
 D:\My Projects\SchoolProject-CleanArchitecture-\Domain\obj\Debug\net8.0\ref\School.Domain.dll
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\Domain\bin\Debug\net8.0\School.Domain.deps.json
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\Domain\bin\Debug\net8.0\School.Domain.dll
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\Domain\bin\Debug\net8.0\School.Domain.pdb
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\Domain\obj\Debug\net8.0\School.Domain.csproj.AssemblyReference.cache
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\Domain\obj\Debug\net8.0\School.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\Domain\obj\Debug\net8.0\School.Domain.AssemblyInfoInputs.cache
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\Domain\obj\Debug\net8.0\School.Domain.AssemblyInfo.cs
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\Domain\obj\Debug\net8.0\School.Domain.csproj.CoreCompileInputs.cache
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\Domain\obj\Debug\net8.0\School.Domain.sourcelink.json
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\Domain\obj\Debug\net8.0\School.Domain.dll
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\Domain\obj\Debug\net8.0\refint\School.Domain.dll
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\Domain\obj\Debug\net8.0\School.Domain.pdb
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\Domain\obj\Debug\net8.0\ref\School.Domain.dll
