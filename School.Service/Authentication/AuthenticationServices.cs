@@ -13,10 +13,14 @@ namespace School.Service.Authentication
     public class AuthenticationServices : ResponseHandler, IAuthenticationService
     {
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly ITokenService _tokenService;
 
-        public AuthenticationServices(UserManager<ApplicationUser> userManager, IStringLocalizer<Resource> localizer) : base(localizer)
+        public AuthenticationServices(UserManager<ApplicationUser> userManager,
+            IStringLocalizer<Resource> localizer,
+            ITokenService tokenService) : base(localizer)
         {
             _userManager = userManager;
+            _tokenService = tokenService;
         }
 
         public async Task<ApplicationUser> RegisterAsync(RegistrationRequest request)
@@ -50,10 +54,13 @@ namespace School.Service.Authentication
         {
             var user = await _userManager.FindByEmailAsync(request.UserName);
             user = user ??= await _userManager.FindByNameAsync(request.UserName);
-            if (user == null || await _userManager.CheckPasswordAsync(user, request.Password))
+            if (user == null || !await _userManager.CheckPasswordAsync(user, request.Password))
             {
-                return new TokenModleResponse() { }
-        }
+                return new TokenModleResponse() { IsAuthenticated = false, Message = "Username or Password is incorrect!" };
+            }
+            var token = await _tokenService.GetToken(user);
+            var response = new TokenModleResponse() { IsAuthenticated = true, Token = token };
+            return response;
         }
 
         public async Task<Response<string>> ChangePasswordAsync(string userId, string oldPassword, string newPassword)

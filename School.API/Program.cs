@@ -19,9 +19,8 @@ builder.Services.AddSwaggerGen();
 //builder.Services.AddDbContext<ApplicationDbContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("Database")));
 
 #region Dependencies
-builder.Services.AddApplicationDependancies()
+builder.Services.AddApplicationDependancies(builder.Configuration)
                 .AddPresistenceDependencies()
-                .AddApplicationDependancies()
                 .AddRegistrationModuleDependencies(builder.Configuration)
                 .AddServiceDependencies();
 #endregion
