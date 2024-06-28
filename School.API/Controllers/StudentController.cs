@@ -4,6 +4,7 @@ using School.API.Base;
 using School.Application.Features.Students.Commends.Models.Request;
 using School.Application.Features.Students.Queries.Models.Request;
 using School.Domain.MetaData;
+using Serilog;
 
 namespace School.API.Controllers
 {
@@ -20,6 +21,7 @@ namespace School.API.Controllers
         [HttpGet("GetAll")]
         public async Task<IActionResult> GetAll()
         {
+            Log.Error("ddddddddd");
             var result = await _mediator.Send(new StudentGetAllRequest());
             return GetResponse(result);
         }
