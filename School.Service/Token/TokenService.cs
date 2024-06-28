@@ -65,7 +65,8 @@ namespace School.Service.Token
                 audience: _jwt.Audience,
                 issuer: _jwt.Issuer,
                 claims: claims,
-                signingCredentials: signingCredentials);
+                signingCredentials: signingCredentials,
+                expires: DateTime.UtcNow.AddMinutes(_jwt.DurationInMinutes));
 
             var token = new JwtSecurityTokenHandler().WriteToken(securityToken);
             return token;

@@ -17,7 +17,14 @@ namespace School.API.Controllers
             _mediator = mediator;
         }
         [HttpPost("register")]
-        public async Task<IActionResult> RegisterAsync(RegistrationRequest request)
+        public async Task<IActionResult> RegisterAsync([FromForm] RegistrationRequest request)
+        {
+            var result = await _mediator.Send(request);
+            return GetResponse(result);
+        }
+
+        [HttpPost("signIn")]
+        public async Task<IActionResult> SignInAsync([FromBody] SignInRequest request)
         {
             var result = await _mediator.Send(request);
             return GetResponse(result);

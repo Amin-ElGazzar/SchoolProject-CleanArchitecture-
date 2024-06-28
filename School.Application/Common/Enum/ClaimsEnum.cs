@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace School.Application.Common.Enum
+﻿namespace School.Application.Common.Enum
 {
-    internal class ClaimsEnum
+    public enum ClaimsEnum
     {
+        Role,
+        Permission,
+        UserId
     }
 }
