@@ -628,3 +628,14 @@ D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\
 D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\School.API\obj\Debug\net8.0\School.API.csproj.Up2Date
 D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\School.API\obj\Debug\net8.0\School.API.genruntimeconfig.cache
 D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\School.API\obj\Debug\net8.0\ref\School.API.dll
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\School.API\bin\Debug\net8.0\Serilog.dll
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\School.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\School.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\School.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\School.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\School.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\School.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\School.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\School.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\School.API\bin\Debug\net8.0\Serilog.Sinks.MSSqlServer.dll
+D:\My Projects\SchoolProject-CleanArchitecture\SchoolProject-CleanArchitecture-\School.API\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll

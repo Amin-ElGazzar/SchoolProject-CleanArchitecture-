@@ -4,6 +4,7 @@ using School.Application;
 using School.Application.Middleware;
 using School.Presistence;
 using School.Service;
+using Serilog;
 using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,6 +24,11 @@ builder.Services.AddApplicationDependancies(builder.Configuration)
                 .AddPresistenceDependencies()
                 .AddRegistrationModuleDependencies(builder.Configuration)
                 .AddServiceDependencies();
+#endregion
+
+#region serilog
+Log.Logger = new LoggerConfiguration().ReadFrom.Configuration(builder.Configuration).CreateLogger();
+builder.Services.AddSerilog();
 #endregion
 
 #region Localization

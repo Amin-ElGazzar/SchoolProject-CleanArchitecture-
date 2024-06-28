@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using School.Application.Common.Models;
+using Serilog;
 using System.Net;
 using System.Text.Json;
 
@@ -10,9 +11,11 @@ namespace School.Application.Middleware
     {
         private readonly RequestDelegate _next;
 
+
         public ExceptionHandlerMiddleware(RequestDelegate next)
         {
             _next = next;
+
         }
 
         public async Task InvokeAsync(HttpContext context)
@@ -28,6 +31,7 @@ namespace School.Application.Middleware
                 var responseModel = new Response<string>() { Succeeded = false, Message = error?.Message };
                 //TODO:: cover all validation errors
                 // Log.Error(error, "Error", context.Request);
+                Log.Error(error, error.Message);
 
                 switch (error)
                 {

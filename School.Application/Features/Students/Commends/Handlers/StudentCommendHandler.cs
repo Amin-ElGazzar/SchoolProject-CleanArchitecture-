@@ -44,7 +44,7 @@ namespace School.Application.Features.Students.Commends.Handlers
         public async Task<Response<string>> Handle(StudentDeleteRequest request, CancellationToken cancellationToken)
         {
             var student = await _repos.StudentRepo.GetByIdAsync(request.Id);
-            if (student == null) return NotFound<string>();
+            //if (student == null) return NotFound<string>();
             _repos.StudentRepo.Delete(student);
             await _repos.SaveChangesAsync();
             return Deleted<string>();
