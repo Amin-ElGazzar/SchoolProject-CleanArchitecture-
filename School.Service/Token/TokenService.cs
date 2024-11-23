@@ -4,9 +4,12 @@ using Microsoft.IdentityModel.Tokens;
 using School.Application.Common.Enum;
 using School.Application.Common.Models;
 using School.Application.Contracts.Services;
+using School.Application.Features.Authentication.Commends.Models.Response;
 using School.Domain.Entities;
+using System.Collections.Concurrent;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace School.Service.Token
@@ -16,13 +19,18 @@ namespace School.Service.Token
         private readonly Jwt _jwt;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly ConcurrentDictionary<string, RefreshTokens> _UserRefreshToken;
 
         public TokenService(IOptions<Jwt> options, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
             _jwt = options.Value;
             _userManager = userManager;
             _roleManager = roleManager;
+            _UserRefreshToken = new ConcurrentDictionary<string, RefreshTokens>();
         }
+
+
+
         public async Task<IEnumerable<Claim>> GetClaims(ApplicationUser user)
         {
             var userClaims = await _userManager.GetClaimsAsync(user);
@@ -55,7 +63,7 @@ namespace School.Service.Token
             return claims;
         }
 
-        public async Task<string> GetToken(ApplicationUser user)
+        public async Task<TokenModleResponse> GetToken(ApplicationUser user)
         {
             var claims = await GetClaims(user);
             SecurityKey securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwt.Key));
@@ -66,11 +74,41 @@ namespace School.Service.Token
                 issuer: _jwt.Issuer,
                 claims: claims,
                 signingCredentials: signingCredentials,
-                expires: DateTime.UtcNow.AddMinutes(_jwt.DurationInMinutes));
+                expires: DateTime.UtcNow.AddMinutes(_jwt.AccessTokenTime));
 
             var token = new JwtSecurityTokenHandler().WriteToken(securityToken);
-            return token;
 
+            var tokenModelResponse = new TokenModleResponse
+            {
+                AccessToken = token,
+                RefreshTokens = GetRefreshTokens()
+            };
+
+
+
+            return tokenModelResponse;
+
+        }
+
+        public string GenerateRefreshToken()
+        {
+            var randomNumber = new byte[32];
+            var randomNumberGenerator = RandomNumberGenerator.Create();
+            randomNumberGenerator.GetBytes(randomNumber);
+
+            return Convert.ToBase64String(randomNumber);
+        }
+
+        public RefreshTokens GetRefreshTokens()
+        {
+            var refreshTokens = new RefreshTokens()
+            {
+                RefreshToken = GenerateRefreshToken(),
+                RefreshTokenExpires = DateTime.UtcNow.AddDays(_jwt.RefreshTokenTime)
+            };
+
+            _UserRefreshToken.AddOrUpdate(refreshTokens.RefreshToken, refreshTokens, (s, t) => refreshTokens);
+            return refreshTokens;
         }
     }
 }
