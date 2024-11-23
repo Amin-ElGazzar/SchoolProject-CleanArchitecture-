@@ -59,8 +59,8 @@ namespace School.Service.Authentication
                 return new TokenModleResponse() { IsAuthenticated = false, Message = "Username or Password is incorrect!" };
             }
             var token = await _tokenService.GetToken(user);
-            var response = new TokenModleResponse() { IsAuthenticated = true, Token = token };
-            return response;
+            token.IsAuthenticated = true;
+            return token;
         }
 
         public async Task<Response<string>> ChangePasswordAsync(string userId, string oldPassword, string newPassword)

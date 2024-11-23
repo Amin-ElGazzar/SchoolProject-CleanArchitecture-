@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|d:\\my projects\\schoolproject-cleanarchitecture\\schoolproject-cleanarchitecture-\\school.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|solutionrelative:school.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject-cleanarchitecture\\schoolproject-cleanarchitecture-\\school.application\\features\\authentication\\commends\\handlers\\authenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\authentication\\commends\\handlers\\authenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|d:\\my projects\\schoolproject-cleanarchitecture\\schoolproject-cleanarchitecture-\\school.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|solutionrelative:school.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject-cleanarchitecture\\schoolproject-cleanarchitecture-\\school.application\\middleware\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\middleware\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACFC721A-102E-40E1-BBD2-79F7CA2069A2}|School.Service\\School.Service.csproj|d:\\my projects\\schoolproject-cleanarchitecture\\schoolproject-cleanarchitecture-\\school.service\\authentication\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFC721A-102E-40E1-BBD2-79F7CA2069A2}|School.Service\\School.Service.csproj|solutionrelative:school.service\\authentication\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|d:\\my projects\\schoolproject-cleanarchitecture\\schoolproject-cleanarchitecture-\\school.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|solutionrelative:school.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACFC721A-102E-40E1-BBD2-79F7CA2069A2}|School.Service\\School.Service.csproj|d:\\my projects\\schoolproject-cleanarchitecture\\schoolproject-cleanarchitecture-\\school.service\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFC721A-102E-40E1-BBD2-79F7CA2069A2}|School.Service\\School.Service.csproj|solutionrelative:school.service\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject-cleanarchitecture\\schoolproject-cleanarchitecture-\\school.application\\contracts\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\contracts\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|d:\\my projects\\schoolproject-cleanarchitecture\\schoolproject-cleanarchitecture-\\school.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{54904265-2EEE-4416-B72B-CACA8BFFB474}|School.API\\School.API.csproj|solutionrelative:school.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject-cleanarchitecture\\schoolproject-cleanarchitecture-\\school.application\\features\\authentication\\commends\\models\\requests\\signinrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\authentication\\commends\\models\\requests\\signinrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|d:\\my projects\\schoolproject-cleanarchitecture\\schoolproject-cleanarchitecture-\\school.application\\features\\authentication\\commends\\models\\response\\tokenmodleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0A651-E457-4B1D-9FA1-79AE39E0DEF0}|School.Application\\School.Application.csproj|solutionrelative:school.application\\features\\authentication\\commends\\models\\response\\tokenmodleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 366,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,19 +54,23 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExceptionHandlerMiddleware.cs",
-              "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.Application\\Middleware\\ExceptionHandlerMiddleware.cs",
-              "RelativeDocumentMoniker": "School.Application\\Middleware\\ExceptionHandlerMiddleware.cs",
-              "ToolTip": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.Application\\Middleware\\ExceptionHandlerMiddleware.cs",
-              "RelativeToolTip": "School.Application\\Middleware\\ExceptionHandlerMiddleware.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAACEAAAAuAAAA",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationHandler.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
+              "RelativeToolTip": "School.Application\\Features\\Authentication\\Commends\\Handlers\\AuthenticationHandler.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAIwBsAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T12:56:40.622Z",
+              "WhenOpened": "2024-10-09T07:34:36.013Z",
               "EditorCaption": ""
             },
             {
@@ -61,36 +81,83 @@
               "RelativeDocumentMoniker": "School.API\\Controllers\\StudentController.cs",
               "ToolTip": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.API\\Controllers\\StudentController.cs",
               "RelativeToolTip": "School.API\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAjAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwBcAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T12:55:23.279Z",
+              "WhenOpened": "2024-09-28T14:56:15.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.API\\appsettings.json",
               "RelativeDocumentMoniker": "School.API\\appsettings.json",
               "ToolTip": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.API\\appsettings.json",
               "RelativeToolTip": "School.API\\appsettings.json",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAC8AAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-26T12:39:30.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T07:20:23.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SignInRequest.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\SignInRequest.cs",
+              "RelativeDocumentMoniker": "School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\SignInRequest.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\SignInRequest.cs",
+              "RelativeToolTip": "School.Application\\Features\\Authentication\\Commends\\Models\\Requests\\SignInRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T12:57:13.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.Application\\Contracts\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "School.Application\\Contracts\\Services\\ITokenService.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.Application\\Contracts\\Services\\ITokenService.cs",
+              "RelativeToolTip": "School.Application\\Contracts\\Services\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T12:43:03.149Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.API\\Program.cs",
-              "RelativeDocumentMoniker": "School.API\\Program.cs",
-              "ToolTip": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.API\\Program.cs",
-              "RelativeToolTip": "School.API\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAB4AAAAeAAAA",
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.Service\\Token\\TokenService.cs",
+              "RelativeDocumentMoniker": "School.Service\\Token\\TokenService.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.Service\\Token\\TokenService.cs",
+              "RelativeToolTip": "School.Service\\Token\\TokenService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAGMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T12:34:20.886Z",
+              "WhenOpened": "2024-06-28T12:42:20.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationServices.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.Service\\Authentication\\AuthenticationServices.cs",
+              "RelativeDocumentMoniker": "School.Service\\Authentication\\AuthenticationServices.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.Service\\Authentication\\AuthenticationServices.cs",
+              "RelativeToolTip": "School.Service\\Authentication\\AuthenticationServices.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAD4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T12:40:49.056Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TokenModleResponse.cs",
+              "DocumentMoniker": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\Authentication\\Commends\\Models\\Response\\TokenModleResponse.cs",
+              "RelativeDocumentMoniker": "School.Application\\Features\\Authentication\\Commends\\Models\\Response\\TokenModleResponse.cs",
+              "ToolTip": "D:\\My Projects\\SchoolProject-CleanArchitecture\\SchoolProject-CleanArchitecture-\\School.Application\\Features\\Authentication\\Commends\\Models\\Response\\TokenModleResponse.cs",
+              "RelativeToolTip": "School.Application\\Features\\Authentication\\Commends\\Models\\Response\\TokenModleResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T12:36:48.135Z"
             }
           ]
         },
@@ -100,15 +167,15 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
             }
           ]
         }

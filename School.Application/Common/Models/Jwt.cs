@@ -5,6 +5,7 @@
         public string Audience { get; set; }
         public string Issuer { get; set; }
         public string Key { get; set; }
-        public double DurationInMinutes { get; set; }
+        public double AccessTokenTime { get; set; }
+        public double RefreshTokenTime { get; set; }
     }
 }

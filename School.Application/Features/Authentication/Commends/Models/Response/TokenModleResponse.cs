@@ -2,9 +2,16 @@
 {
     public class TokenModleResponse
     {
-        public string? Token { get; set; }
-        public DateTime ExpiryOn { get; set; }
-        public string? Message { get; set; }
+        public string? AccessToken { get; set; }
         public bool IsAuthenticated { get; set; }
+        public string? Message { get; set; }
+        public RefreshTokens RefreshTokens { get; set; }
+    }
+
+    public class RefreshTokens
+    {
+        public string RefreshToken { get; set; }
+        public DateTime? RefreshTokenExpires { get; set; }
+
     }
 }
